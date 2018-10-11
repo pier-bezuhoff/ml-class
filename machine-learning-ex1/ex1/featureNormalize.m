@@ -1,0 +1,14 @@
+function [X_norm, mu, sigma] = featureNormalize(X)
+  %FEATURENORMALIZE Normalizes the features in X 
+  % FEATURENORMALIZE(X) returns a normalized version of X where
+  % the mean value of each feature is 0 and the standard deviation
+  % is 1. This is often a good preprocessing step to do when
+  % working with learning algorithms.
+  [m n] = size(X);
+  mu = mean(X);
+  sigma = scale = std(X);
+  scale(scale == 0) = 1; % std = 0 => don't scale
+  scale = diag(1 ./ scale);
+  X_norm = X - repmat(mu, m, 1); % center each column
+  X_norm *= scale; % scale each column
+end

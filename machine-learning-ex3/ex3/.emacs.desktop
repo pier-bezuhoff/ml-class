@@ -1,0 +1,52 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Oct  6 22:15:36 2018
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23481 2520 448022 189000) (desktop . "206") "vanfed@vanfed-Inspiron-N5050" nil nil ((((font-backend xft x) (font . "-DAMA-Ubuntu Mono-normal-normal-normal-*-19-*-*-*-m-0-iso10646-1") (font-parameter . "Ubuntu Mono 14") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#f6f3e8") (background-color . "#242424") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 10) (right-fringe . 10) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#656565") (sticky) (environment) (frameset--id . "774D-6F2D-ABE6-D601") (frameset--mini t . t) (height . 34) (width . 134) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 31) (icon-name) (visibility . t) (display . ":0.0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 80) (min-pixel-width . 100) (min-pixel-height-ignore . 40) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 20) (min-pixel-width-safe . 20)) leaf (pixel-width . 1366) (pixel-height . 669) (total-width . 137) (total-height . 33) (normal-height . 1.0) (normal-width . 1.0) (buffer "oneVsAll.m" (selected . t) (hscroll . 0) (fringes 10 10 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("X" "C" "lr" "li"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/Programming/Octave/machine-learning-ex3/ex3/" "~/Programming/Octave/machine-learning-ex2/ex2/costFunctionReg.m" "~/Programming/Octave/machine-learning-ex2/ex2/costFunction.m" "~/Programming/Octave/machine-learning-ex3/ex3"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vanfed/Programming/Octave/machine-learning-ex3/ex3/oneVsAll.m"
+  "oneVsAll.m"
+  'matlab-mode
+  '(auto-fill-mode matlab-functions-have-end-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 70)))
+
+(desktop-create-buffer 206
+  nil
+  "ex3"
+  'dired-mode
+  nil
+  754
+  '(394 nil)
+  t
+  '("/home/vanfed/Programming/Octave/machine-learning-ex3/ex3/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/vanfed/Programming/Octave/machine-learning-ex3/ex3/ex3.m"
+  "ex3.m"
+  'matlab-mode
+  '(auto-fill-mode)
+  1260
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 70)))
+
